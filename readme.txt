@@ -1,0 +1,1 @@
+Projects and exercises from React Quickly by Azat Mardan.
