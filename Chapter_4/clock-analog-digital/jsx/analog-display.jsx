@@ -2,7 +2,7 @@ const AnalogDisplay = function AnalogDisplay(props) {
     let date = new Date(props.time)
     let dialStyle = {
         position: 'relative',
-        top 0,
+        top: 0,
         left: 0,
         width: 200,
         height: 200,
@@ -22,7 +22,7 @@ const AnalogDisplay = function AnalogDisplay(props) {
     }
     let minuteHandStyle = {
         position: 'relative',
-        top 100,
+        top: 100,
         left: 100,
         border: '1px solid grey',
         width: '40%',
