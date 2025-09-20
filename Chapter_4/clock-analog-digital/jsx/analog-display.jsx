@@ -13,6 +13,7 @@ const AnalogDisplay = function AnalogDisplay(props) {
     let secondHandStyle = {
         position: 'relative',
         top: 100,
+        left: 100,
         border: '1px solid red',
         width: '40%',
         height: 1,
