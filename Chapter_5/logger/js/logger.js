@@ -25,7 +25,7 @@ class Logger extends React.Component {
         console.log('new props: ', newProps);
         console.log('new state: ', newState);
     }
-    componentDidUpdate(newProps, newState) {
+    componentDidUpdate(oldProps, oldState) {
         console.log('componentDidUpdate is triggered');
         console.log('old props: ', oldProps);
         console.log('old state: ', oldState);
@@ -34,7 +34,7 @@ class Logger extends React.Component {
         console.log('componentWillUnmount');
     }
     render() {
-        // console.log('rendering... Display');
+        console.log('rendering... Display');
         return React.createElement(
             'div',
             null,
