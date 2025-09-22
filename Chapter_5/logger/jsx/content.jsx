@@ -16,7 +16,7 @@ class Content extends React.Component {
         }, 1000)
     }
     render() {
-        if (this.state.counter > 2) return
+        if (this.state.counter > 2) return <div/>
         return <Logger time="{this.state.currentTime}"></Logger>
     }
 }
