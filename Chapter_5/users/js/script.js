@@ -1,4 +1,4 @@
-let dataUrl = '/Chapter_5/users/real-user-data.json';
+let dataUrl = 'real-user-data.json';
 ReactDOM.render(React.createElement(
     'div',
     null,
