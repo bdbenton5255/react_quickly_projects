@@ -1,7 +1,7 @@
 let secondsLeft = 5;
 let interval = setInterval(() => {
     if (secondsLeft == 0) {
-        reactDOM.render(React.createElement(
+        ReactDOM.render(React.createElement(
             'div',
             null,
             'Note was removed after ',

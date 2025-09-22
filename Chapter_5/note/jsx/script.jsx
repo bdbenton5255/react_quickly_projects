@@ -1,7 +1,7 @@
 let secondsLeft = 5
 let interval = setInterval(()=>{
     if (secondsLeft == 0) {
-        reactDOM.render(
+        ReactDOM.render(
             <div>
                 Note was removed after {secondsLeft} seconds.
             </div>,
