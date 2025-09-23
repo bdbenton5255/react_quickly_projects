@@ -24,7 +24,7 @@ class Radio extends React.Component {
         window.addEventListener('resize', this.handleResize);
     }
     componentWillUnmount() {
-        window.addEventListener('resize', this.handleResize);
+        window.removeEventListener('resize', this.handleResize);
     }
     handleResize(event) {
         let w = 1 + Math.round(window.innerWidth / 300);
