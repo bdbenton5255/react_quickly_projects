@@ -82,7 +82,44 @@ class Content extends React.Component {
                 </label>
                 <hr/>
 
-                
+                <h2>input: checkbox</h2>
+                <label>
+                    <input
+                        type="checkBox" 
+                        name="checkboxGroup" 
+                        value='node'
+                        checked={this.state.checkboxGroup['node']}
+                        onChange={this.handleCheckbox} />
+                </label>
+                <br/>
+                <label>
+                    <input
+                        type="checkBox" 
+                        name="checkboxGroup" 
+                        value='react'
+                        checked={this.state.checkboxGroup['react']}
+                        onChange={this.handleCheckbox} />
+                </label>
+                <br/>
+                <label>
+                    <input
+                        type="checkBox" 
+                        name="checkboxGroup" 
+                        value='express'
+                        checked={this.state.checkboxGroup['express']}
+                        onChange={this.handleCheckbox} />
+                </label>
+                <br/>
+                <label>
+                    <input
+                        type="checkBox" 
+                        name="checkboxGroup" 
+                        value='mongodb'
+                        checked={this.state.checkboxGroup['mongodb']}
+                        onChange={this.handleCheckbox} />
+                </label>
+                <br/>
+                <hr/>
 
             </form>
         </div>
