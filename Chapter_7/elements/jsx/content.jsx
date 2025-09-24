@@ -127,6 +127,12 @@ class Content extends React.Component {
                     onChange={this.handleChange} />
                 <hr/>
 
+                <textarea
+                    name="description1"
+                    defaultValue={"Pro Express.js is for the reader\nwho wants to quickly get up-top-speed with Express.js, \nthe flexible Node.js framework"}
+                    onChange={this.handleChange} />
+                <hr/>
+
             </form>
         </div>
     }
