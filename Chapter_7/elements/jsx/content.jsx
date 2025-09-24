@@ -121,6 +121,12 @@ class Content extends React.Component {
                 <br/>
                 <hr/>
 
+                <textarea
+                    name="description"
+                    defaultValue={this.state.description}
+                    onChange={this.handleChange} />
+                <hr/>
+
             </form>
         </div>
     }
