@@ -155,7 +155,7 @@ class Content extends React.Component {
                 <input type="button" defaultValue="Send" onClick={this.handleSubmit} />
                 <hr/>
 
-                
+                <input type="text" name="title" value="Mr." />
 
             </form>
         </div>
