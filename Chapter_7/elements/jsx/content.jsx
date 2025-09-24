@@ -151,6 +151,12 @@ class Content extends React.Component {
                 <input type="text" name="first-name" onChange={this.handleFirstNameChange} />
                 <hr/>
 
+                <h2>input:button</h2>
+                <input type="button" defaultValue="Send" onClick={this.handleSubmit} />
+                <hr/>
+
+                
+
             </form>
         </div>
     }
