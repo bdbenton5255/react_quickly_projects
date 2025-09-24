@@ -65,6 +65,23 @@ class Content extends React.Component {
                 <input type="password" defaultValue="123456" onChange={this.handleChange} onInput={this.handleInput} />
                 <hr/>
 
+                <h2>input: radio</h2>
+                <label>
+                    <input type="radio" name="radioGroup" vale='angular' checked={this.state.radioGroup['angular']} onChange={this.handleRadio} />
+                    Angular
+                </label>
+                <br/>
+                <label>
+                    <input type="radio" name="radioGroup" vale='react' checked={this.state.radioGroup['react']} onChange={this.handleRadio} />
+                    React
+                </label>
+                <br/>
+                <label>
+                    <input type="radio" name="radioGroup" vale='polymer' checked={this.state.radioGroup['polymer']} onChange={this.handleRadio} />
+                    Polymer
+                </label>
+                <hr/>
+
                 
 
             </form>
