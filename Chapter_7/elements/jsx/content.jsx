@@ -61,6 +61,10 @@ class Content extends React.Component {
                 <input type="text" name="new-book-title" defaultValue="Node: The Best Parts" />
                 <hr/>
 
+                <h2>input: password</h2>
+                <input type="password" defaultValue="123456" onChange={this.handleChange} onInput={this.handleInput} />
+                <hr/>
+
                 
 
             </form>
