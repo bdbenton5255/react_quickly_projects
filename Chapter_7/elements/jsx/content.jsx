@@ -140,6 +140,15 @@ class Content extends React.Component {
                 </select>
                 <hr/>
 
+                <select multiple={true} defaultValue={['meteor', 'react']} readOnly>
+                    <option value="meteor">Metoer</option>
+                    <option value="react">React</option>
+                    <option value="jQuery">jQuery</option>
+                </select>
+                <hr/>
+
+                
+
             </form>
         </div>
     }
