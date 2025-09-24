@@ -147,7 +147,9 @@ class Content extends React.Component {
                 </select>
                 <hr/>
 
-                
+                <h2>input :first name [text]</h2>
+                <input type="text" name="first-name" onChange={this.handleFirstNameChange} />
+                <hr/>
 
             </form>
         </div>
