@@ -133,6 +133,13 @@ class Content extends React.Component {
                     onChange={this.handleChange} />
                 <hr/>
 
+                <select value={this.state.selectedValue} onChange={this.handleSelectChange}>
+                    <option value="ruby">Ruby</option>
+                    <option value="node">Node</option>
+                    <option value="python">Python</option>
+                </select>
+                <hr/>
+
             </form>
         </div>
     }
