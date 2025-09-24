@@ -53,5 +53,17 @@ class Content extends React.Component {
         this.setState({selectedValue: event.target.value})
         console.log(event.target.value, event.target.selected)
     }
+    render() {
+        return <div className="container">
+            <form onSubmit={this.handleSubmit}>
 
+                <h2>input: text</h2>
+                <input type="text" name="new-book-title" defaultValue="Node: The Best Parts" />
+                <hr/>
+
+                
+
+            </form>
+        </div>
+    }
 }
