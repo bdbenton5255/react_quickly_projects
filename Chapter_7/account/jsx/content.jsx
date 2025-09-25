@@ -8,4 +8,16 @@ class Content extends React.Component {
         console.log('Typed: ', event.target.value)
         this.setState({accountNumber: event.target.value.replace(/[^0-9]/ig, '')})
     }
+    render() {
+        return <div>
+            Account Number:
+            <input
+                type="text"
+                onChange={this.handleChange}
+                placeholder="123456"
+                value={this.state.accountNumber}/>
+            <br/>
+            <span>{this.state.accountNumber.length > 0 ? 'Youn entered: ' + this.state.accountNumber: ''}</span>
+        </div>
+    }
 }
