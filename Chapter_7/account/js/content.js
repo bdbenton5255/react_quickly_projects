@@ -22,7 +22,7 @@ class Content extends React.Component {
             React.createElement(
                 'span',
                 null,
-                this.state.accountNumber.length > 0 ? 'Youn entered: ' + this.state.accountNumber : ''
+                this.state.accountNumber.length > 0 ? 'You entered: ' + this.state.accountNumber : ''
             )
         );
     }
