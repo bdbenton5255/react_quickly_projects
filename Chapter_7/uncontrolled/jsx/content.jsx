@@ -4,4 +4,8 @@ class Content extends React.Component {
         this.state = {textbook: ''}
         this.handleChange = this.handleChange.bind(this)
     }
+    handleChange(event) {
+        console.log(event.target.value)
+        this.setState({textbook: event.target.value})
+    }
 }
