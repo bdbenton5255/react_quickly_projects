@@ -20,6 +20,9 @@ class Content extends React.Component {
                 <div className="form-group">
                     Comments: <textarea ref="comments" className="form-control" placeholder="I like your website!" />
                 </div>
+                <div className="form-group">
+                    <a className="btn btn-primary" value="Submit" onClick={this.submit}>Submit</a>
+                </div>
             </div>
         )
     }
