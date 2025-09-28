@@ -11,7 +11,8 @@ ReactDOM.render(
             <a href="http://react.rocks">http://react.rocks</a>
         </Content>
         <Content>
-
+            <a className="btn btn-danger" href="http://react.rocks">http://react.rocks</a>
         </Content>
-    </div>
+    </div>,
+    document.getElementById('content')
 )
