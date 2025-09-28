@@ -8,4 +8,5 @@ Button.defaultProps = {buttonLabel: 'Submit'}
 
 Button.propTypes = {
     handler: PropTypes.fun.isRequired,
+    title: PropTypes.string,
 }
