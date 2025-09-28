@@ -3,3 +3,5 @@ class Button extends React.Component {
         return <button className="btn">{this.props.buttonLabel}</button>
     }
 }
+
+Button.defaultProps = {buttonLabel: 'Submit'}
