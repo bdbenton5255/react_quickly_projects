@@ -8,6 +8,7 @@ ReactDOM.render(
             <img src="images/azat.jpg" width="100"/>
         </Content>
         <Content>
+            <a href="http://react.rocks">http://react.rocks</a>
         </Content>
         <Content>
 
