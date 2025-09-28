@@ -5,3 +5,7 @@ class Button extends React.Component {
 }
 
 Button.defaultProps = {buttonLabel: 'Submit'}
+
+Button.propTypes = {
+    handler: PropTypes.fun.isRequired,
+}
