@@ -9,4 +9,10 @@ Button.defaultProps = {buttonLabel: 'Submit'}
 Button.propTypes = {
     handler: PropTypes.fun.isRequired,
     title: PropTypes.string,
+    email(props, propName, componentName) {
+        letemailRegularExpression = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i
+        if(!emailRegularExpression.test(props[propName])) {
+            return new Error('Email validation failed!')
+        }
+    }
 }
