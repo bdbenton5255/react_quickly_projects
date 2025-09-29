@@ -12,3 +12,8 @@ class Link extends React.Component {
         return <a onClick={this.props.handleClick} href="#">{this.props.label}</a>
     }
 }
+class Logo extends React.Component {
+    render() {
+        return <img onClick={this.props.handleClick} width="40" src="logo.png" href="#"/>
+    }
+}
