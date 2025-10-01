@@ -15,7 +15,10 @@ const LoadWebsite = (Component) => {
         }
         render() {
             console.log(this.state)
-            return <Component {...this.state} {...this.props}} />
+            return <Component {...this.state} {...this.props} />
         }
     }
+    _LoadWebsite.displayName = 'EnhancedComponent'
+
+    return _LoadWebsite
 }
