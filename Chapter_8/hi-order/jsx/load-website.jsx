@@ -13,5 +13,9 @@ const LoadWebsite = (Component) => {
         componentDidMount() {
             console.log(ReactDOM.findDOMNode(this))
         }
+        render() {
+            console.log(this.state)
+            return <Component {...this.state} {...this.props}} />
+        }
     }
 }
