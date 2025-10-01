@@ -10,5 +10,8 @@ const LoadWebsite = (Component) => {
         handleClick(event) {
             document.getElementById('frame').src = this.getUrl()
         }
+        componentDidMount() {
+            console.log(ReactDOM.findDOMNode(this))
+        }
     }
 }
